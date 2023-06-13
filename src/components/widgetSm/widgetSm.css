@@ -1,0 +1,78 @@
+.widgetSm {
+    flex: 1;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    margin-right: 500px;
+}
+
+.widgetSmTitle {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.widgetSmList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.buttonContainer {
+    margin-top: 10px;
+}
+
+.buttonContainer button {
+    margin-right: 10px;
+}
+
+.btn {
+    width: 70px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    width: 70px;
+    border: none;
+    background-color: rgb(205, 205, 255);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+.btn2 {
+    width: 70px;
+    height: 40px;
+    border: none;
+    background-color: rgb(139, 0, 0);
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    width: 70px;
+    height: 40px;
+    border: none;
+    background-color: rgb(255, 182, 182);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+@media (max-width: 400px) {
+    .widgetSmList {
+        flex-direction: column;
+    }
+}
